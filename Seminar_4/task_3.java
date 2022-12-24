@@ -64,7 +64,7 @@ public class task_3 {
             }
             if (answer.equals("n")) {
 
-                // answer = input.next().trim().toLowerCase();
+  
                 logger.info("Пользователь решил вернуться на шаг назад " + answer);
              
 
@@ -176,24 +176,16 @@ public class task_3 {
 
     }
 
-    // public void name1(int number_1, int number_2, char operator) {
-    //     inputNumber1(number_1);
-    //     inputOperator(operator);
-    //     inputNumber2(number_2);
-    //     operation(number_1, number_2, operator);
-        
-    // }
+
 
     public static int inputNumber1(){
         int number_1;
 
-        // Scanner input = new Scanner(System.in)
         System.out.println();
 
         System.out.print("Введите первое число: ");
         number_1 = input.nextInt();
-            // logger.info("Пользователь ввёл первое число " + number_1);
-            // input.close();
+
         
         return number_1;
     }
@@ -217,8 +209,7 @@ public class task_3 {
 
         System.out.print("Введите второе число: ");
         number_2 = input.nextInt();
-            // logger.info("Пользователь ввёл второе число " + number_2);
-        // input.close();
+
         
         return number_2;
         
@@ -235,25 +226,25 @@ public class task_3 {
 
             case '+':
                 result = number_1 + number_2;
-                // logger.info("Пользователь получил результат " + result);
+
                 System.out.println(number_1 + " + " + number_2 + " = " + result);
                 break;
 
             case '-':
                 result = number_1 - number_2;
-                // logger.info("Пользователь получил результат " + result);
+        
                 System.out.println(number_1 + " - " + number_2 + " = " + result);
                 break;
 
             case '*':
                 result = number_1 * number_2;
-                // logger.info("Пользователь получил результат " + result);
+             
                 System.out.println(number_1 + " * " + number_2 + " = " + result);
                 break;
 
             case '/':
                 result = number_1 / number_2;
-                // logger.info("Пользователь получил результат " + result);
+ 
                 System.out.println(number_1 + " / " + number_2 + " = " + result);
                 break;
 
